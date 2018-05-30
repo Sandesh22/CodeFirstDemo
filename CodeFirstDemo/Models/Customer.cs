@@ -11,7 +11,7 @@ namespace WebApplication1.Models
         //[Required]
         //[StringLength(250)]
         public string  Name { get; set; }
-        //public bool IsSubscribedToNewLetter { get; set; }
+        public bool IsSubscribedToNewLetter { get; set; }
         //public MemberShipType MemberShipType { get; set; }
         //public byte MemberShipTypeId { get; set; }
     }
