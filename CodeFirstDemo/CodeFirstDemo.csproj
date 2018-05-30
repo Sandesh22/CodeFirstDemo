@@ -209,6 +209,30 @@
     <Compile Include="Migrations\201805301821541_addIsSubscribedToNewLetter.Designer.cs">
       <DependentUpon>201805301821541_addIsSubscribedToNewLetter.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805301830320_AddMemberShipTypeIncustomer.cs" />
+    <Compile Include="Migrations\201805301830320_AddMemberShipTypeIncustomer.Designer.cs">
+      <DependentUpon>201805301830320_AddMemberShipTypeIncustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805301835007_addtblMemberShipType.cs" />
+    <Compile Include="Migrations\201805301835007_addtblMemberShipType.Designer.cs">
+      <DependentUpon>201805301835007_addtblMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805301840485_testtbl.cs" />
+    <Compile Include="Migrations\201805301840485_testtbl.Designer.cs">
+      <DependentUpon>201805301840485_testtbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805301842548_addtblMemberShipType1.cs" />
+    <Compile Include="Migrations\201805301842548_addtblMemberShipType1.Designer.cs">
+      <DependentUpon>201805301842548_addtblMemberShipType1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805301850499_PopulateMembershipTbl.cs" />
+    <Compile Include="Migrations\201805301850499_PopulateMembershipTbl.Designer.cs">
+      <DependentUpon>201805301850499_PopulateMembershipTbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805301906206_AddDataAnnotationsToCutomer.cs" />
+    <Compile Include="Migrations\201805301906206_AddDataAnnotationsToCutomer.Designer.cs">
+      <DependentUpon>201805301906206_AddDataAnnotationsToCutomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -296,6 +320,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805301821541_addIsSubscribedToNewLetter.resx">
       <DependentUpon>201805301821541_addIsSubscribedToNewLetter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805301830320_AddMemberShipTypeIncustomer.resx">
+      <DependentUpon>201805301830320_AddMemberShipTypeIncustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805301835007_addtblMemberShipType.resx">
+      <DependentUpon>201805301835007_addtblMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805301840485_testtbl.resx">
+      <DependentUpon>201805301840485_testtbl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805301842548_addtblMemberShipType1.resx">
+      <DependentUpon>201805301842548_addtblMemberShipType1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805301850499_PopulateMembershipTbl.resx">
+      <DependentUpon>201805301850499_PopulateMembershipTbl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805301906206_AddDataAnnotationsToCutomer.resx">
+      <DependentUpon>201805301906206_AddDataAnnotationsToCutomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
